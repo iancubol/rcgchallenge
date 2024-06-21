@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performAdditionTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performAdditionTest.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performConcatenationTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performConcatenationTest.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performDivisionTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performDivisionTest.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performMultiplicationTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performMultiplicationTest.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performSubtractionTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performSubtractionTest.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-22T00:28:14 PST" name="Default suite" finished-at="2024-06-22T00:28:29 PST" duration-ms="15044">
+    <groups>
+    </groups>
+    <test started-at="2024-06-22T00:28:14 PST" name="Default test" finished-at="2024-06-22T00:28:29 PST" duration-ms="15044">
+      <class name="ian.project.testcases.CalculatorTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:07 PST" name="setUp" finished-at="2024-06-22T00:28:14 PST" duration-ms="6729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:14 PST" name="setupBeforeTest" finished-at="2024-06-22T00:28:14 PST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method signature="performAdditionTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:14 PST" name="performAdditionTest" finished-at="2024-06-22T00:28:14 PST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performAdditionTest -->
+        <test-method is-config="true" signature="captureTest(org.testng.ITestResult)[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:14 PST" name="captureTest" finished-at="2024-06-22T00:28:16 PST" duration-ms="2231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performAdditionTest status=SUCCESS method=CalculatorTests.performAdditionTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performAdditionTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performAdditionTest.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- captureTest -->
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:16 PST" name="setupBeforeTest" finished-at="2024-06-22T00:28:17 PST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method signature="performConcatenationTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:17 PST" name="performConcatenationTest" finished-at="2024-06-22T00:28:17 PST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performConcatenationTest -->
+        <test-method is-config="true" signature="captureTest(org.testng.ITestResult)[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:17 PST" name="captureTest" finished-at="2024-06-22T00:28:20 PST" duration-ms="2184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performConcatenationTest status=SUCCESS method=CalculatorTests.performConcatenationTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performConcatenationTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performConcatenationTest.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- captureTest -->
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:20 PST" name="setupBeforeTest" finished-at="2024-06-22T00:28:20 PST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method signature="performDivisionTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:20 PST" name="performDivisionTest" finished-at="2024-06-22T00:28:20 PST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performDivisionTest -->
+        <test-method is-config="true" signature="captureTest(org.testng.ITestResult)[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:20 PST" name="captureTest" finished-at="2024-06-22T00:28:23 PST" duration-ms="2176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performDivisionTest status=SUCCESS method=CalculatorTests.performDivisionTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performDivisionTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performDivisionTest.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- captureTest -->
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:23 PST" name="setupBeforeTest" finished-at="2024-06-22T00:28:23 PST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method signature="performMultiplicationTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:23 PST" name="performMultiplicationTest" finished-at="2024-06-22T00:28:23 PST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performMultiplicationTest -->
+        <test-method is-config="true" signature="captureTest(org.testng.ITestResult)[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:23 PST" name="captureTest" finished-at="2024-06-22T00:28:26 PST" duration-ms="2146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performMultiplicationTest status=SUCCESS method=CalculatorTests.performMultiplicationTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performMultiplicationTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performMultiplicationTest.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- captureTest -->
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:26 PST" name="setupBeforeTest" finished-at="2024-06-22T00:28:26 PST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method signature="performSubtractionTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:26 PST" name="performSubtractionTest" finished-at="2024-06-22T00:28:26 PST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSubtractionTest -->
+        <test-method is-config="true" signature="captureTest(org.testng.ITestResult)[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:26 PST" name="captureTest" finished-at="2024-06-22T00:28:29 PST" duration-ms="2136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performSubtractionTest status=SUCCESS method=CalculatorTests.performSubtractionTest()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performSubtractionTest.png'> <img src='C:\Users\User\Documents\GitHub\rcgchallenge\test-output\screenshots\Report_22_06_2024_12_28_13_BUILD-5\performSubtractionTest.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- captureTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ian.project.testcases.CalculatorTests@5d0a1059]" started-at="2024-06-22T00:28:29 PST" name="tearDown" finished-at="2024-06-22T00:28:29 PST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ian.project.testcases.CalculatorTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

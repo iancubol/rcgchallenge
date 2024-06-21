@@ -12,18 +12,18 @@ import org.json.simple.parser.ParseException;
 
 public class DataUtil {
 	
-	private Long firstNumber, secondNumber;
-	private static String build;
+	private Integer firstNumber, secondNumber;
+	private String build;
 	
 	public DataUtil() throws FileNotFoundException, IOException, ParseException {
 		initializeData();
 	}
 	
-	public Long getFirstNumber() {
+	public Integer getFirstNumber() {
 		return firstNumber;
 	}
 
-	public Long getSecondNumber() {
+	public Integer getSecondNumber() {
 		return secondNumber;
 	}
 	
@@ -38,9 +38,10 @@ public class DataUtil {
 		JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader(jsonPath));
 		for (Object o : jsonArray) {
 			JSONObject data = (JSONObject) o;
-			build = (String) data.get("build");
-			this.firstNumber = (Long) data.get("first number");
-			this.secondNumber = (Long) data.get("second number");
+			this.build = (String) data.get("build");
+			this.firstNumber = Integer.parseInt((String) data.get("first number"));
+			this.secondNumber = Integer.parseInt((String) data.get("second number"));
+			
 		}
 	}
 }

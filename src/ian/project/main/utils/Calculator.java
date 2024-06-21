@@ -8,7 +8,7 @@ import org.json.simple.parser.ParseException;
 public class Calculator {
 	
 	private DataUtil data;
-	private Long firstNumber, secondNumber;
+	private Integer firstNumber, secondNumber;
 
 	public Calculator() throws FileNotFoundException, IOException, ParseException {
 		this.data = new DataUtil();
@@ -16,31 +16,35 @@ public class Calculator {
 		this.secondNumber = data.getSecondNumber();
 	}
 	
-	public Long getFirstNumber() {
+	public Integer getFirstNumber() {
 		return firstNumber;
 	}
 
-	public Long getSecondNumber() {
+	public Integer getSecondNumber() {
 		return secondNumber;
 	}
 
-	public Long getSum() {
+	public Integer getSum() {
 		return firstNumber + secondNumber;
 	}
 	
-	public Long getDifference() {
+	public Integer getDifference() {
 		return firstNumber - secondNumber;
 	}
 	
-	public Long getProduct() {
+	public Integer getProduct() {
 		return firstNumber * secondNumber;
 	}
 	
-	public Long getQuotient() {
-		return firstNumber / secondNumber;
+	public Double getQuotient() {
+		return (double) firstNumber / (double) secondNumber;
 	}
 	
 	public String concatenate() {
 		return firstNumber.toString() + secondNumber.toString();
+	}
+
+	public String getBuild() {
+		return data.getBuild();
 	}
 }
